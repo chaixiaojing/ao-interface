@@ -53,7 +53,6 @@ export function AppGlobalStyles({ children }: { children: ReactNode }) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-
         {children}
       </ThemeProvider>
     </ColorModeContext.Provider>
